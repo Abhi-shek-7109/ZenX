@@ -84,3 +84,10 @@ body{
     max-width: 50%;
 
   }
+
+  @media(min-width:500px){
+    #container-1{
+      width: 100%;
+      color: blue;
+    }
+  }

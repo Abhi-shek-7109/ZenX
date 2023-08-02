@@ -84,10 +84,27 @@ body{
     max-width: 50%;
 
   }
+ .photo{
+  background-color: rgb(74, 246, 249, 0.4);
+  margin: 20px;
+  border: 2px solid #efefef;
+ }
 
-  @media(min-width:500px){
-    #container-1{
-      width: 100%;
-      color: blue;
-    }
-  }
+ .image{
+  max-width: 300px;
+  border-radius: 50%;
+  float:right;
+  margin-left: 30px;
+  max-height: 200px;
+ }
+
+
+ .border-dark{
+  background-color: rgb(255, 228, 196, 0.3);
+  max-width: 600px;
+  font-weight:500;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+
+  
